@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: candara, arial, tahoma;
+}
+
+header.cabecalho {
+    width: 100%;
+    height: 140px;
+    background-color: #c9bfb9;
+}
+
+header.cabecalho section.boxmenu section.logotopo img {
+    float: left;
+}
+
+header.cabecalho section.boxmenu nav.menu {
+    float: left;
+    margin-top: 50px;
+}
+
+header.cabecalho section.boxmenu nav.menu ul li {
+    list-style: none;
+    display: inline;
+    font-family: Candara;
+    font-size: 44px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+header.cabecalho section.boxmenu nav.menu ul li a {
+    text-decoration: none;
+    color: rgb(12, 122, 17);
+}
+
+header.cabecalho section.boxmenu nav.menu ul li a:hover {
+    color:#865a20;
+}
+
+/*FIM DA EDIÇÃO DO CABEÇALHO */
+
+
+footer.rodape {
+    width: 100%;
+    height: 270px;
+    background-color: sandybrown;
+    margin-top: 0px;
+}
+
+footer.rodape div.caixarodape {
+    width: 1200px;
+    height: 270px;
+    /*background-color: pink;*/
+    margin: auto;                   /*  IMPORTANTE */ 
+}
+
+
+
+
+footer.rodape div.caixarodape div.rodapers {
+    width: 590px; 
+    height: 270px;
+    /*background-color: green;*/
+	float:left;
+}
+
+
+footer.rodape div.caixarodape div.rodapers div.textorsrodape h4 {  
+    font-family: Candara;
+    font-size: 44px;
+    text-align: center;
+    color: white;
+}
+
+footer.rodape div.caixarodape div.rodapers div.botoesrs {
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 40px;
+    /*background-color: darkgreen;*/
+}
+
+footer.rodape div.caixarodape div.rodapers div.botoesrs ul {
+    margin-left: 80px;
+}
+
+footer.rodape div.caixarodape div.rodapers div.botoesrs ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+/* EDITANDO MENU RODAPE */
+
+footer.rodape div.caixarodape nav.menurodape {    
+    width: 590px;
+    height: 270px;
+    /*background-color: yellow;*/
+    float: right;
+}
+
+footer.rodape div.caixarodape nav.menurodape ul {
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+footer.rodape div.caixarodape nav.menurodape ul li {
+    list-style: none;
+}
+
+footer.rodape div.caixarodape nav.menurodape a {
+    color: rgb(12, 122, 17);
+    text-decoration: none;                          
+    font-size: 40px;
+}
+
+footer.rodape div.caixarodape nav.menurodape a:hover {
+    color:#865a20;
+}
+

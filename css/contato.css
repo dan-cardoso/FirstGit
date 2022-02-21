@@ -1,0 +1,41 @@
+section.caixa {
+    width: auto;
+    height: 600px;
+    margin: auto;
+}
+
+section.caixa h1 {
+    color: #015cac;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+section.caixa p {
+    font-size: 26px;
+    color: #000000;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+section.caixa section.contato h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+section.caixa section.contato h3 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+section.caixa section.contato {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+/* tirar excesso css e corrigir height*/

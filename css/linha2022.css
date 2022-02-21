@@ -1,0 +1,51 @@
+section.caixa {
+    width: 1200px;
+    height: 900px;
+    /*background-color: tomato;*/
+    margin: auto;
+}
+
+section.caixa h1 {
+    color: #015cac;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+section.caixa p {
+    font-size: 26px;
+    color: #000000;
+    line-height: 32px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+section.caixa div#fotos {
+    width: 1200px;
+    height: 420px;
+    /*background-color: pink;*/
+    margin-top: 40px;
+}
+
+section.caixa div#fotos ul li {
+    list-style: none;           /* tira bolinhas da lista */
+    float:left;
+    width: 260px;
+}
+
+section.caixa div#fotos ul li#foto2,
+section.caixa div#fotos ul li#foto3,
+section.caixa div#fotos ul li#foto4,
+section.caixa div#fotos ul li#foto6,
+section.caixa div#fotos ul li#foto7,
+section.caixa div#fotos ul li#foto8 {
+    margin-left: 53px;
+}
+
+section.caixa div#fotos ul li#foto5,
+section.caixa div#fotos ul li#foto6,
+section.caixa div#fotos ul li#foto7,
+section.caixa div#fotos ul li#foto8 {
+    margin-top: 15px;
+}

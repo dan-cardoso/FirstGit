@@ -1,0 +1,27 @@
+section.caixa {
+    width: 1200px;
+    height: 900px;
+    /*background-color: yellow;*/
+    margin: auto;
+}
+
+section.caixa h1 {
+    color: #015cac;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+section.caixa p {
+    font-size: 26px;
+    color: #000000;
+    line-height: 32px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+section.caixa div#local {
+    margin-top: 40px;
+    margin-left: 200px;
+}

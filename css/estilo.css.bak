@@ -1,0 +1,82 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: candara, arial, tahoma;
+}
+
+header.cabecalho {
+    width: 100%;
+    height: 140px;
+    background-color: #c9bfb9;
+}
+
+header.cabecalho section.boxmenu section.logotopo img {
+    float: left;
+}
+
+header.cabecalho section.boxmenu nav.menu {
+    float: left;
+    margin-top: 50px;
+}
+
+header.cabecalho section.boxmenu nav.menu ul li {
+    list-style: none;
+    display: inline;
+    font-family: Candara;
+    font-size: 44px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+header.cabecalho section.boxmenu nav.menu ul li a {
+    text-decoration: none;
+    color: rgb(12, 122, 17);
+}
+
+header.cabecalho section.boxmenu nav.menu ul li a:hover {
+    color:#865a20;
+}
+
+/*FIM DA EDIÇÃO DO CABEÇALHO */
+
+
+footer.rodape {
+    width: 100%;
+    height: 270px;
+    background-color: red;
+    margin-top: 0px;
+}
+
+footer.rodape div.caixarodape {
+    width: 1200px;
+    height: 270px;
+    background-color: pink;
+    margin: auto;                   /*  IMPORTANTE */ 
+}
+
+
+
+
+footer.rodape div.caixarodape div.rodapers {
+    width: 590px; 
+    height: 270px;
+    background-color: green;
+}
+
+
+
+
+
+
+
+/* EDITANDO MENU RODAPE */
+
+footer.rodape div.caixarodape nav.menurodape {    
+    width: 390px;
+    height: 270px;
+    background-color: yellow;
+    float: right;
+}
